@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Post subtitle
- * Description: The plugin adds support for headers for WordPress posts.
+ * Description: The plugin adds support for subheadings for WordPress posts
  * Version: 1.0.0
  * Text Domain: subtitle
  * Domain Path: /languages
