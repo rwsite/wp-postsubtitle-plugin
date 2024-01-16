@@ -1,15 +1,16 @@
 <?php
 /**
- * Plugin Name: Post subtitle
- * Description: The plugin adds support for subheadings for WordPress posts
+ * Plugin Name: Post Subtitle
+ * Plugin URL: https://rwsite.ru
+ * Description: WordPress plugin for post subtitle. How to use: <code>add_theme_support('subtitle');</code>
  * Version: 1.0.0
  * Text Domain: subtitle
  * Domain Path: /languages
  * Author: Aleksey Tikhomirov
- * Author URI:  http://rwsite.ru
  *
- * Requires PHP: 8.0+
- * How to use: add_theme_support('subtitle');
+ * Requires at least: 4.6
+ * Tested up to: 5.3.3
+ * Requires PHP: 7.0+
  */
 
 // Exit if accessed directly
@@ -21,6 +22,7 @@ class PostExtendSubtitle
     protected $post;
     protected $post_id;
     public static $inst = 0;
+    public static $prefix = '_page';
 
     public function __construct()
     {
