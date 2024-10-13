@@ -1,0 +1,15 @@
+{
+  "name": "rwsite/wp-postsubtitle-plugin",
+  "description": "This WordPress post subtitle plugin.",
+  "type": "wordpress-plugin",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Aleksei Tikhomirov",
+      "email": "alex@rwsite.ru"
+    }
+  ],
+  "require": {
+  }
+}
